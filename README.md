@@ -5,8 +5,8 @@ I have modified an existing Parsing script from Didier Stevens that parses the X
 
 ### How to use
 1. Normal usage for display result
-./nmap-xml-script-output-modify.py test.xml
+./nmap_xml_to_csv_parser.py test.xml
 2. Change default delimiter(;) to ,
-./nmap-xml-script-output-modify.py test.xml -s ,
+./nmap_xml_to_csv_parser.py test.xml -s ,
 3. Output to test.csv
-./nmap-xml-script-output-modify.py test.xml -s , -o test.csv
+./nmap_xml_to_csv_parser.py -s , -o parsed_nmap_output_file.csv
